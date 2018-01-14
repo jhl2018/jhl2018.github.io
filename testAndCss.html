@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="testAndCss.css" type="text/css" />
+<meta charset="UTF-8">
+<title>test after css</title>
+</head>
+<body style="">
+
+	<div id="main">
+		<h1 style="text-align: center">统一建模语言理论测试</h1>
+		<div id="testinfo" class="common">
+			<table>
+				<tr>
+					<td>考试科目：统一建模语言</td>
+					<td>时间：100分钟</td>
+					<td>得分：</td>
+				</tr>
+			</table>
+		</div>
+		<br />
+		
+		<div id="stuinfo" class="common">
+			<table>
+				<tr>
+					<td>班级（必填）:<input type="text" name="class"></td>
+					<td>姓名（必填）:<input type="text" name="name"></td>
+					<td>学号（必填）:<input type="text" name="number"></td>
+				</tr>
+			</table>
+		</div>
+		<br />
+	
+	<!-- 第一题 -->
+		<div id="fitstInfo" class="common">
+			<table>
+				<tr class="back">
+					<td colspan="3">
+						<h3>一、填空题（每空5分，共10分）</h3>
+					</td>
+				</tr>
+			</table>
+			
+			<div class="topic">
+				<table>
+					<tr>
+						<td><font>1.UML的中文全称是：</font></td>
+					</tr>
+					<tr>
+						<td><input type="text" name="oneFirst"></td>
+					</tr>
+				</table>
+			</div>
+			<div class="topic">
+				<table>
+					<tr>
+						<td><font>2.对象最突出的特性是：</font></td>
+					</tr>
+					<tr>
+						<td colspan="3">
+							<input type="text" name="oneSecond1">
+							<input type="text" name="oneSecond2">
+							<input type="text" name="oneSecond3">
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<br />
+		
+	<!-- 第二题 -->
+		<div class="common">
+			<table>
+				<tr class="back">
+					<td>
+						<h3>二、选择题（每题10分，共20分）</h3>
+					</td>
+				</tr>
+			</table>
+			<div class="topic">
+				<font>1.UML与软件工程的关系是：</font><br />
+				<input type="radio" name="two1" id="1a">(A)UML就是软件工程<br />
+				<input type="radio" name="two1" id="1b">(B)UML参与到软件工程中软件开发过程的几个阶段<br />
+				<input type="radio" name="two1" id="1c">(C)UML与软件工程无关<br />
+				<input type="radio" name="two1" id="1d">(D)UML是软件工程的一部分<br />
+			</div>
+			<div class="topic">
+				<font>2.Java语言支持：</font><br />
+				<input type="radio" name="two2" id="2a">(A)单继承<br />
+				<input type="radio" name="two2" id="2b">(B)多继承<br />
+				<input type="radio" name="two2" id="2c">(C)单继承和多继承都支持<br />
+				<input type="radio" name="two2" id="2d">(D)单继承和多继承都不支持<br />
+			</div>
+		</div>
+		<br/>
+	
+	<!-- 第三题 -->
+		<div class="common">
+			<table>
+				<tr class="back">
+					<td>
+						<h3>三、多项选择题（每题10分，共20分）</h3>
+					</td>
+				</tr>
+			</table>
+			<div class="topic">
+				<font>1.用例的粒度分为以下哪三种：</font><br />
+				<input type="checkbox" name="three1" id="3a">(A)概述级<br />
+				<input type="checkbox" name="three1" id="3b">(B)需求级<br />
+				<input type="checkbox" name="three1" id="3c">(C)用户目标级<br />
+				<input type="checkbox" name="three1" id="3d">(D)子功能级<br />
+			</div>
+			<div class="topic">
+				<font>2.由以下哪三部分组成：</font><br />
+				<input type="checkbox" name="three2" id="4a">(A)名称(Name)<br />
+				<input type="checkbox" name="three2" id="4b">(B)属性(Attribute)<br />
+				<input type="checkbox" name="three2" id="4c">(C)操作(Operation)<br />
+				<input type="checkbox" name="three2" id="4d">(D)方法(Function)<br />
+			</div>
+		</div>
+		<br/>
+		
+	<!-- 第四题 -->
+		<div class="common">
+			<table>
+				<tr class="back">
+					<td>
+						<h3>四、判断题（每题10分，共20分）</h3>
+					</td>
+				</tr>
+			</table>
+			<div class="topic">
+				<font>1.用例图只是用于和客户交流和沟通的，用于确定需求</font>
+				<input type="radio" name="two1" id="true1">
+				<img src="true.jpg" style="width:2%;height:2%"></img>
+				<input type="radio" name="two1" id="false1">
+				<img src="false.jpg" style="width:2%;height:2%"></img>
+			</div>
+			<div class="topic">
+				<font>2.在状态图中，终止状态在一个状态图中允许有任意多个</font>
+				<input type="radio" name="two1" id="true2">
+				<img src="true.jpg" style="width:2%;height:2%"></img>
+				<input type="radio" name="two1" id="false2">
+				<img src="false.jpg" style="width:2%;height:2%"></img>
+			</div>
+		</div>
+		<br/>
+		
+	<!-- 第五题 -->
+		<div class="common">
+			<table>
+				<tr class="back">
+					<td>
+						<h3>五、解答题（每题20分，共20分）</h3>
+					</td>
+				</tr>
+			</table>
+		<div class="topic">
+			<font>1.简述什么是模型以及模型的表现形式</font><br/>
+			<textarea style="width:80%;height:100px"></textarea>
+		</div>
+	</div>
+	<br/>
+	
+	<div align="center">
+		<input type="button" value="计算分数" style="background:url(butback.jpg) ">
+	</div>
+</div>
+</body>
+</html>
